@@ -33,7 +33,7 @@ int main(int argc, char **argv) {
    mode = atoi(argv[1]);
 
 	int n = 2; 
-while(n<=sizeof(argv)) {
+while(n<=sizeof(argc)) {
 	Student s;
 	s.first_name = argv[n];
 	s.last_name = argv[n + 1];
